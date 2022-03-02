@@ -1,0 +1,96 @@
+.logo {
+    
+   
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    line-height: 2.1em;
+    border: 2px solid transparent;
+   
+}
+
+.logo:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+
+
+#prod{
+
+    background-color: #414141;
+    color: #fff;
+    border-color: #af20d3;
+}
+
+#carroCompras{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    top: 35%;
+   
+    right: 1%;   
+    z-index: 1;     
+    cursor: pointer;
+    /*border-radius: 20px 20px 0px 0px;*/
+
+    
+
+}
+#fondoHome {
+    background-color: #f1f1e8;
+    padding: 20px;
+}
+.nav-item{
+   
+    border-bottom: 3px solid #af20d3;
+}
+
+.carousel-item h5{
+
+    color: #fff;
+}
+.carousel-caption{
+    background-color: #414141;
+}
+
+.container{
+
+    padding: 50px;
+}
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
